@@ -1,9 +1,126 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Mon Site sur les Fleurs</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Lien vers votre fichier CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #6ab04c;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f9f9f9;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #intro {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        #intro h2 {
+            color: #6ab04c;
+        }
+
+        #intro p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6ab04c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #4f7f2a;
+        }
+
+        #featured-flowers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .flower {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .flower img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .flower h3 {
+            color: #6ab04c;
+        }
+
+        .flower p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #6ab04c;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,38 +130,6 @@
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Fleurs</a></li>
                 <li><a href="#">Conseils de jardinage</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+                <li><a href="#">À 
 
-    <main>
-        <section id="intro">
-            <h2>Bienvenue sur Mon Site sur les Fleurs</h2>
-            <p>Découvrez un monde de beauté florale avec nos articles, photos et conseils sur les fleurs et le jardinage.</p>
-            <a href="#" class="btn">Explorer</a>
-        </section>
-
-        <section id="featured-flowers">
-            <h2>Fleurs en Vedette</h2>
-            <div class="flower">
-                <img src="rose.jpg" alt="Rose">
-                <h3>Rose</h3>
-                <p>La rose, reine des fleurs, symbole de l'amour et de la passion.</p>
-            </div>
-            <div class="flower">
-                <img src="tulipe.jpg" alt="Tulipe">
-                <h3>Tulipe</h3>
-                <p>La tulipe, une fleur élégante et colorée qui annonce l'arrivée du printemps.</p>
-            </div>
-            <!-- Ajoutez plus de fleurs en vedette selon vos besoins -->
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Mon Site sur les Fleurs</p>
-    </footer>
-</body>
-</html>
 
